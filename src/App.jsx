@@ -4,10 +4,11 @@ import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
 import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
+/* import { Gallery } from "./components/gallery"; */
 import { Testimonials } from "./components/testimonials";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import { Faq } from "./components/Faq.tsx";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -27,10 +28,11 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
+      <Features data={landingPageData.Features} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
+      <Faq />
+      {/* <Gallery data={landingPageData.Gallery} /> */}
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />

@@ -207,6 +207,7 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  height: 100vh;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
@@ -217,6 +218,7 @@ a:focus,
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
+  height: 100vh;
 }
 .intro h1 {
   font-family: "Raleway", sans-serif;
