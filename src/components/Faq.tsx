@@ -21,19 +21,19 @@ export const Faq = () => {
     <div style={{padding: 20, textAlign: 'center'}}>
       <h2 style={{padding: 20}}>FAQ</h2>
 
-      <button className="accordion" onClick={() => onClick(ref1)}>Section 1</button>
+      <button className="accordion" onClick={() => onClick(ref1)}>Che tipo di task si possono trovare su Workmate?</button>
       <div className="panel" ref={ref1}>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Di svariato tipo, dal montaggio alla pittura e tutto ciò che riguarda la mantunzione della casa.</p>
       </div>
 
-      <button className="accordion" onClick={() => onClick(ref2)}>Section 2</button>
+      <button className="accordion" onClick={() => onClick(ref2)}>Come posso diventare uno specialista?</button>
       <div className="panel" ref={ref2}>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Nella form a fondo pagina esplicita il tuo interesse e parlaci brevemente di te e sarai ricontattato al più presto.</p>
       </div>
 
-      <button className="accordion" onClick={() => onClick(ref3)}>Section 3</button>
+      <button className="accordion" onClick={() => onClick(ref3)}>Ho garanzie sui task svolti?</button>
       <div className="panel" ref={ref3}>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Sì, entrerai a contatto con operatori selezionati e forniremo una copertura in caso di danni.</p>
       </div>
     </div>
   );

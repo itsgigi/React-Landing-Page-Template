@@ -19,6 +19,7 @@ export const Contact = (props) => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
+    window.alert("Grazie per l'interesse, sarai ricontattato al più presto!")
     console.log(name, email, message);
     
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }

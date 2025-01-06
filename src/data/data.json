@@ -114,35 +114,35 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/luca.jpeg",
       "name": "Luca Giacci",
       "job": "Director"
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/team/marco.jpeg",
       "name": "Marco Verratti",
       "job": "Senior Designer"
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "img/team/gigi.jpeg",
       "name": "Luigi Di Loreto",
       "job": "Senior Designer"
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/raschia.jpeg",
       "name": "Lorenzo Rasciatore",
       "job": "Project Manager"
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/elena.jpg",
       "name": "Elena D'Angelo",
       "job": "Project Manager"
     }
   ],
   "Contact": {
-    "address": "Via XYZ, Torino",
-    "phone": "+1 123 456 1234",
-    "email": "workmate@company.it",
+    "address": "Via Andrea Doria, 27, 10123 Torino TO",
+    "phone": "+39 3480992866",
+    "email": "info@workmate.it",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"

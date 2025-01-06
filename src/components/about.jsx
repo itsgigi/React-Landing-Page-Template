@@ -22,11 +22,11 @@ export const About = (props) => {
               {props.data
                 ? props.data.Why.map((d, i) => (
                   <div id="features" className="text-center">
-                    <div className="container" style={{backgroundColor: 'white', flexDirection: 'row', display: 'flex', marginLeft: -40}}>
-                      <div key={d} className="col-xs-2 col-md-6" style={{flexDirection: 'row', display: 'flex', }}>
+                    <div className="container" style={{backgroundColor: 'white', flexDirection: 'row', display: 'flex',  width: '100%'}}>
+                      <div key={d} className="col-xs-2 col-md-6" style={{flexDirection: 'row', display: 'flex', width: '100%'}}>
                         {" "}
-                        <i className={icons[i]}></i>
-                        <div style={{ textAlign: 'end', width: '80%'}}>
+                        <i  style={{ width: '25%'}} className={icons[i]}></i>
+                        <div style={{ textAlign: 'end', width: '100%'}}>
                           <h3 style={{textAlign: 'flex-end'}}>{d}</h3>
                           <p>{props.data.Why2[i]}</p>
                         </div>
